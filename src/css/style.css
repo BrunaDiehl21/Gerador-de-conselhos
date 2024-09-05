@@ -1,0 +1,64 @@
+body{
+    background-color: hsl(218, 23%, 16%) ;
+    font-family: "Manrope" , sans-serif;
+    font-weight: 800;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .card{
+    width: 580px;
+    height: 300px;
+    padding: 30px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .card .advice-id{
+    font-size: 20px;
+    color: hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container .card .advice-description{
+    height: 150px;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card picture img{
+    width: 100%;
+}
+
+.container .advice-update{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    transform: translateY(85%);
+    position: absolute;
+    margin-top: 200px;
+}
+
+.container .advice-update:hover{
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
